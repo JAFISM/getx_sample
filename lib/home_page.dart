@@ -10,8 +10,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    TapController controller = Get.put(TapController());
+    TapController controller =Get.find();
 
     return Scaffold(
       resizeToAvoidBottomInset: false,
